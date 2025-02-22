@@ -1,5 +1,16 @@
 {
   "compilerOptions": {
+    // Output settings
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "module": "CommonJS",
+    "target": "ES6",
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "declaration": true,
+
     // Strict Checks
     "alwaysStrict": true,
     "noImplicitAny": true,
@@ -12,25 +23,23 @@
     "noPropertyAccessFromIndexSignature": true,
     "noUncheckedIndexedAccess": true,
     "exactOptionalPropertyTypes": true,
+
     // Linter Checks
     "noImplicitReturns": true,
     "noImplicitOverride": true,
     "forceConsistentCasingInFileNames": true,
-    // https://eslint.org/docs/rules/consistent-return ?
     "noFallthroughCasesInSwitch": true,
-    // https://eslint.org/docs/rules/no-fallthrough
     "noUnusedLocals": true,
-    // https://eslint.org/docs/rules/no-unused-vars
     "noUnusedParameters": true,
-    // https://eslint.org/docs/rules/no-unused-vars#args
     "allowUnreachableCode": false,
-    // https://eslint.org/docs/rules/no-unreachable ?
     "allowUnusedLabels": false,
-    // https://eslint.org/docs/rules/no-unused-labels
+
     // Base Strict Checks
     "noImplicitUseStrict": false,
     "suppressExcessPropertyErrors": false,
     "suppressImplicitAnyIndexErrors": false,
     "noStrictGenericChecks": false
-  }
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
 }
