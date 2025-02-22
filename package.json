@@ -1,15 +1,15 @@
 {
-  "name": "@denislit/supress",
-  "version": "1.0.1",
+  "name": "@gdenislit/supress",
+  "version": "1.0.2",
   "description": "Express JS mock",
   "repository": "git@github.com:gDenisLit/suppress.git",
   "author": "Denis Lit <denis.lit@intail.ai>",
   "license": "MIT",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": ["dist"],
   "scripts": {
-    "build": "tsc",
-    "clean": "rm -rf dist"
+    "build": "tsc"
   },
   "publishConfig": {
     "access": "public"
