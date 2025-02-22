@@ -1,5 +1,5 @@
 {
-  "name": "@gdenislit/supress",
+  "name": "@denislit/supress",
   "version": "1.0.2",
   "description": "Express JS mock",
   "repository": "git@github.com:gDenisLit/suppress.git",
@@ -14,8 +14,10 @@
   "publishConfig": {
     "access": "public"
   },
+  "dependencies": {
+    "@types/node": "^22.13.5"
+  },
   "devDependencies": {
-    "@types/node": "^22.13.5",
     "prettier": "3.5.2",
     "ts-node": "^10.9.2",
     "typescript": "^5.7.3"
