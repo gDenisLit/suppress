@@ -9,7 +9,8 @@
   "types": "dist/index.d.ts",
   "files": ["dist"],
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "demo": "node demo/index.js"
   },
   "publishConfig": {
     "access": "public"
