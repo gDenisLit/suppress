@@ -9,6 +9,9 @@
   "scripts": {
     "build": "tsc"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "@types/node": "^22.13.5",
     "prettier": "3.5.2",
