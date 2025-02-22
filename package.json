@@ -1,6 +1,6 @@
 {
   "name": "@denislit/supress",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Express JS mock",
   "repository": "git@github.com:gDenisLit/suppress.git",
   "author": "Denis Lit <denis.lit@intail.ai>",
