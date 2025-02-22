@@ -1,2 +1,2 @@
-export * from 'core/index'
-export * from 'types/index'
+export * from './core'
+export * from './types'
