@@ -4,8 +4,13 @@ import {
     Server,
     ServerResponse,
 } from 'node:http'
-import { HttpMethods, HttpStatusCode, ServerRouteHandlerType, ServerRoutesMap } from './types'
 
+import {
+    HttpMethods,
+    HttpStatusCode,
+    ServerRouteHandlerType,
+    ServerRoutesMap,
+} from './types'
 
 export class RouteController {
     private routes: ServerRoutesMap
@@ -38,7 +43,7 @@ export class RouteController {
     }
 }
 
-export class Expresso {
+export class Suppress {
     private server: Server
     private routes: ServerRoutesMap
     private controllers: Map<string, RouteController>
