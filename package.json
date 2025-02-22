@@ -6,8 +6,10 @@
   "author": "Denis Lit <denis.lit@intail.ai>",
   "license": "MIT",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "clean": "rm -rf dist"
   },
   "publishConfig": {
     "access": "public"
